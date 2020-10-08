@@ -12,6 +12,7 @@
 		493C44D8252F052E00BC7AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493C44D7252F052E00BC7AEF /* Assets.xcassets */; };
 		493C44DB252F052E00BC7AEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493C44DA252F052E00BC7AEF /* Preview Assets.xcassets */; };
 		493C44DE252F052E00BC7AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493C44DC252F052E00BC7AEF /* Main.storyboard */; };
+		493C44E8252F064300BC7AEF /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C44E7252F064300BC7AEF /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		493C44DD252F052E00BC7AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		493C44DF252F052E00BC7AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493C44E0252F052E00BC7AEF /* cube_on_desktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cube_on_desktop.entitlements; sourceTree = "<group>"; };
+		493C44E7252F064300BC7AEF /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		493C44EB252F06BB00BC7AEF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 			children = (
 				493C44D2252F052C00BC7AEF /* cube-on-desktop */,
 				493C44D1252F052C00BC7AEF /* Products */,
+				493C44EA252F06BB00BC7AEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,7 @@
 				493C44DF252F052E00BC7AEF /* Info.plist */,
 				493C44E0252F052E00BC7AEF /* cube_on_desktop.entitlements */,
 				493C44D9252F052E00BC7AEF /* Preview Content */,
+				493C44E7252F064300BC7AEF /* Environment.swift */,
 			);
 			path = "cube-on-desktop";
 			sourceTree = "<group>";
@@ -72,6 +77,14 @@
 				493C44DA252F052E00BC7AEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		493C44EA252F06BB00BC7AEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				493C44EB252F06BB00BC7AEF /* Cocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493C44D6252F052C00BC7AEF /* ContentView.swift in Sources */,
+				493C44E8252F064300BC7AEF /* Environment.swift in Sources */,
 				493C44D4252F052C00BC7AEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
